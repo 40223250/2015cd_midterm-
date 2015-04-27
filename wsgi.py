@@ -564,7 +564,7 @@ class Hello(object):
 
 
     </script>
-    <canvas id="plotarea" width="1200" height="1200"></canvas>
+    <canvas id="plotarea" width="2400" height="2400"></canvas>
     </body>
     </html>
     '''
