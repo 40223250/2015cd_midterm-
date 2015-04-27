@@ -76,7 +76,7 @@ class Hello(object):
     @cherrypy.expose
     # index 方法為 CherryPy 各類別成員方法中的內建(default)方法, 當使用者執行時未指定方法, 系統將會優先執行 index 方法
     # 有 self 的方法為類別中的成員方法, Python 程式透過此一 self 在各成員方法間傳遞物件內容
-    def index_orig(self, toprint="Hello World!"):
+    def index_orig(self, toprint="40223250"):
         return toprint
     #@+node:2014fall.20141212095015.1779: *3* hello
     @cherrypy.expose
@@ -564,7 +564,7 @@ class Hello(object):
 
 
     </script>
-    <canvas id="plotarea" width="2400" height="2400"></canvas>
+    <canvas id="plotarea" width="1200" height="1200"></canvas>
     </body>
     </html>
     '''
